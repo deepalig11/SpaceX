@@ -27,7 +27,6 @@ class App extends Component {
     }
     yearHandler = async (id) => {
         let x = parseInt(id);
-        console.log(`https://api.spaceXdata.com/v3/launches?limit=100&launch_year=${x}`);
         await this.setState({
             activeYear: x,
             activeLaunch: '',
@@ -53,7 +52,6 @@ class App extends Component {
     }
     callApi = async () => {
         let url = 'SpaceX?year=' + `${this.state.activeYear}` + '&launchsuccess=' + `${this.state.activeLaunch}` + '&landsuccess=' + `${this.state.activeLand}` + '&result';
-        console.log(`https://api.spaceXdata.com/v3/launches?limit=100&launch_success=${this.state.activeLaunch}&land_success=${this.state.activeLand}&launch_year=${this.state.activeYear}`);
         await fetch(`https://api.spaceXdata.com/v3/launches?limit=100&launch_success=${this.state.activeLaunch}&launch_year=${this.state.activeYear}&land_success=${this.state.activeLand}`)
             .then(response => response.json())
             .then(data => {
@@ -67,10 +65,7 @@ class App extends Component {
                 console.error('Error-', err);
             });
 
-
-
     }
-
     render() {
         return (
             <div style={{ backgroundColor: 'rgba(0, 0, 0, 0.1)' }}>
@@ -88,7 +83,6 @@ class App extends Component {
                                     activeLand={this.state.activeLand}
                                     activeLaunch={this.state.activeLaunch}
                                 />
-
 
                             </div>
                             <div className="col-sm-9">

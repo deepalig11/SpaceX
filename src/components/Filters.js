@@ -4,18 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Button from './Button';
 
-
-
-
 class Filters extends Component {
     constructor(props) {
         super(props);
 
     }
-
-
-
-
 
     render() {
         return (

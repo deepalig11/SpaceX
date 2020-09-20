@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 function Button(props) {
     const btnclassname = (props.active == true) ? 'btn btn-success active' : 'btn btn-success'
     return (
