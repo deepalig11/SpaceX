@@ -23,7 +23,8 @@ class App extends Component {
                 this.setState({ launchList: [...data] });
                 console.log(data);
             });
-        window.history.pushState('', '', '/SpaceX');
+        // window.history.pushState('', '', '/SpaceX');
+        history.push('/');
     }
     yearHandler = async (id) => {
         let x = parseInt(id);
