@@ -1,4 +1,5 @@
 {
+  "homepage": "https://deepalig11.github.io/SpaceX",
   "name": "ssr_retry",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +18,6 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3"
   },
-  "homepage": "https://myusername.github.io/my-app",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
