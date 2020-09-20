@@ -26,7 +26,7 @@ class List extends Component {
                                             <br />
                                             <b>Successful Launch: </b>{x.launch_success === null ? "Not launched" : x.launch_success.toString()}
                                             <br />
-                                            <b>Successful Landing: </b>{!x.rocket.first_stage.cores[0].land_success === null ? 'NULL' : x.rocket.first_stage.cores[0].land_success}
+                                            <b>Successful Landing: </b>{x.rocket.first_stage.cores[0].land_success === null ? "NULL" : x.rocket.first_stage.cores[0].land_success.toString()}
                                         </Card.Text>
                                     </Card.Body>
 
