@@ -21,10 +21,9 @@ class App extends Component {
             .then(response => response.json())
             .then(data => {
                 this.setState({ launchList: [...data] });
-                console.log(data);
             });
         // window.history.pushState('', '', '/SpaceX');
-        history.push('/');
+        // history.push('/SpaceX');
     }
     yearHandler = async (id) => {
         let x = parseInt(id);
@@ -56,7 +55,6 @@ class App extends Component {
         await fetch(`https://api.spaceXdata.com/v3/launches?limit=100&launch_success=${this.state.activeLaunch}&launch_year=${this.state.activeYear}&land_success=${this.state.activeLand}`)
             .then(response => response.json())
             .then(data => {
-                console.log(data);
                 if (this.state.activeYear === 2020) {
 
                 }

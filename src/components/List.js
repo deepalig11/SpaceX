@@ -7,7 +7,6 @@ class List extends Component {
         super(props);
     }
     render() {
-        console.log('listtts' + this.props.launchList);
         return (
             <>
                 {
