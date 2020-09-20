@@ -22,8 +22,8 @@ class App extends Component {
             .then(data => {
                 this.setState({ launchList: [...data] });
             });
-        // window.history.pushState('', '', '/SpaceX');
-        // history.push('/SpaceX');
+        window.history.pushState('', '', '/SpaceX');
+
     }
     yearHandler = async (id) => {
         let x = parseInt(id);
