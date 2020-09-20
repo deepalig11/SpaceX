@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "72de5dc4fd24946bbd70c99349b8aaf9",
+    "revision": "34a5fe0b1268d8c57320cdf8bf74815c",
     "url": "/SpaceX/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SpaceX/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "2832e57328506cd20edb",
+    "revision": "1f684765ba31e9b7cf35",
     "url": "/SpaceX/static/css/main.80f5f85c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SpaceX/static/js/2.142a4856.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2832e57328506cd20edb",
-    "url": "/SpaceX/static/js/main.217e29a3.chunk.js"
+    "revision": "1f684765ba31e9b7cf35",
+    "url": "/SpaceX/static/js/main.6a065c00.chunk.js"
   },
   {
     "revision": "c16393e8d5de1c7631eb",
