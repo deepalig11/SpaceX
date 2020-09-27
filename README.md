@@ -1,7 +1,7 @@
 # SpaceX
 
 **This project is generated with Reactjs**
-This application is hosted on - http://15.207.39.61:3000/SpaceX
+This application is hosted on - https://deepalig11.github.io/SpaceX
 **App Overview**
 - The app contains Containers, Components and utils Folder
 - In Component we have App.js which wraps Home.js file and it has all the functions.
